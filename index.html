@@ -4,15 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
@@ -47,7 +42,7 @@
     <!--Main-->
     <main>
       <section class="solutions">
-        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="core">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="order">Заказать услугу</button>
       </section>
       <div class="main-container">
@@ -55,30 +50,30 @@
           <!--Hidden h2-->
           <h2 hidden>Наши преимущества</h2>
           <ul class="skills">
-            <li>
-              <h3>Внимание к деталям</h3>
-              <p>
+            <li class="skills-list">
+              <h3 class="skills-main">Внимание к деталям</h3>
+              <p class="skills-about">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
-              <h3>Пунктуальность</h3>
-              <p>
+            <li class="skills-list">
+              <h3 class="skills-main">Пунктуальность</h3>
+              <p class="skills-about">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <h3>Планирование</h3>
-              <p>
+            <li class="skills-list">
+              <h3 class="skills-main">Планирование</h3>
+              <p class="skills-about">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
-              <h3>Современные технологии</h3>
-              <p>
+            <li class="skills-list">
+              <h3 class="skills-main">Современные технологии</h3>
+              <p class="skills-about">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -86,39 +81,74 @@
           </ul>
         </section>
         <section class="our-work">
-          <h2>Чем мы занимаемся</h2>
+          <h2 class="our-work-main">Чем мы занимаемся</h2>
           <ul class="our-work-list">
             <li class="image-list">
-              <img src="./images/img1.jpg" alt="Image 1" width="370" />
+              <img
+                src="./images/img1.jpg"
+                class="image-work"
+                alt="Image 1"
+                width="370"
+              />
             </li>
             <li class="image-list">
-              <img src="./images/img2.jpg" alt="Image 2" width="370" />
+              <img
+                src="./images/img2.jpg"
+                class="image-work"
+                alt="Image 2"
+                width="370"
+              />
             </li>
             <li class="image-list">
-              <img src="./images/img3.jpg" alt="Image 3" width="370" />
+              <img
+                src="./images/img3.jpg"
+                class="image-work"
+                alt="Image 3"
+                width="370"
+              />
             </li>
           </ul>
         </section>
         <section class="team">
-          <h2>Наша команда</h2>
+          <h2 class="team-main">Наша команда</h2>
           <ul class="team-list">
             <li class="photo-list">
-              <img src="./images/photo(1).jpg" alt="Photo 1" width="270" />
+              <img
+                src="./images/photo(1).jpg"
+                class="team-photo"
+                alt="Photo 1"
+                width="270"
+              />
               <h3 class="name">Игорь Демьяненко</h3>
               <p class="job">Product Designer</p>
             </li>
             <li class="photo-list">
-              <img src="./images/photo(2).jpg" alt="Photo 2" width="270" />
+              <img
+                src="./images/photo(2).jpg"
+                class="team-photo"
+                alt="Photo 2"
+                width="270"
+              />
               <h3 class="name">Ольга Репина</h3>
               <p class="job">Frontend Developer</p>
             </li>
             <li class="photo-list">
-              <img src="./images/photo(3).jpg" alt="Photo 3" width="270" />
+              <img
+                src="./images/photo(3).jpg"
+                class="team-photo"
+                alt="Photo 3"
+                width="270"
+              />
               <h3 class="name">Николай Тарасов</h3>
               <p class="job">Marketing</p>
             </li>
             <li class="photo-list">
-              <img src="./images/photo(4).jpg" alt="Photo 4" width="270" />
+              <img
+                src="./images/photo(4).jpg"
+                class="team-photo"
+                alt="Photo 4"
+                width="270"
+              />
               <h3 class="name">Михаил Ермаков</h3>
               <p class="job">UI Designer</p>
             </li>
@@ -130,11 +160,11 @@
       <div class="container-ft">
         <div class="contacts-ft">
           <a href="#0" class="ft-link"
-            ><span class="web">Web</span
+            ><span class="web-link">Web</span
             ><span class="studio-ft">Studio</span></a
           >
           <address class="location">г. Киев, пр-т Леси Украинки, 26</address>
-          <ul>
+          <ul class="contacts-links">
             <li>
               <a href="mailto:info@devstudio.com" class="mail-ft"
                 >info@devstudio.com</a
